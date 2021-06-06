@@ -1,0 +1,150 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 30px 30px 10px 45px;
+    box-sizing:border-box;
+}
+nav img{
+    height: 60px;
+}
+.nav-items-wrapper{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+}
+.nav-item{
+    color:#BEBDBC;
+    font-size:16px;
+    padding-bottom: 2px;
+}
+.nav-item:hover{
+    color:#120E07;
+    cursor:pointer;
+    border-bottom: 2px solid #5343C0;
+}
+nav button{
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 0;
+    color: #5343C0;
+    background-color: #FFD8DB;
+}
+main{
+    width: 100%;
+    display: flex;
+    padding-top:100px;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+.stunning-workplace{
+    max-width: 450px;
+    display: inline-block;
+    box-sizing:border-box;
+    margin-right: 100px;
+    margin-left: 150px; 
+}
+.stunning-workplace > h1{
+    font-size: 80px;
+}
+.stunning-workplace > p{
+    color: #5A5756;
+    font-size:16px;
+    letter-spacing: 0.8px;
+    margin-bottom: 40px;
+}
+.stunning-workplace > h1::after{
+    content: ".";
+    color: #5343C0;
+}
+.account-buttons{
+    display:flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.account-buttons button{
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 0;
+    background-color: #5343C0;
+    color: white;
+}
+.stunning-image{
+    width:50%;
+    background-image: url('utils/landing-section-image.png');
+    background-position: left;
+    background-size: cover;
+}
+.account-wrapper{
+    display: flex;
+}
+.account-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    padding-left:15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.account-item:hover{
+    box-shadow: 0px 5px 5px rgb(245,245,245), 0px -5px 5px rgb(245,245,245),5px 0px 5px rgb(245,245,245),-5px 0px 5px rgb(245,245,245);
+    z-index: 10;
+}
+.account-item:hover i{
+    background-color: #5343C0;
+    color: white;
+    border: 0;
+}
+.account-item i{
+    background-color: white;
+    color:#EDEDED;
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    font-size: 18px;
+    padding: 6px;
+
+}
+.account-name{
+    width: 40%;
+    padding-left: 20px;;
+}
+.account-date{
+    color:rgb(188,186,184);
+}
+.account-line{
+    height: 10px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+#account-pink{
+    background-color: #FDD5D7;
+}
+#account-orange{
+    background-color: #FD6634;
+}
+#account-blue{
+    background-color: #9FD396;
+}
+#account-red{
+    background-color: #FFE29E;
+}
+.stunning-image img{
+    width: 60%;
+    margin-right: 0;
+}
